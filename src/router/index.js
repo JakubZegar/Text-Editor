@@ -1,21 +1,22 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Index from '@/components/Index';
 import Note from '@/components/Note';
+import BrowseNotes from '../components/BrowseNotes'
 
 Vue.use(Router);
 
 export default new Router({
   routes: [
-    {
-      path: '',
-      name: 'Index',
-      component: Index
-    },
+
     {
       path:'/note',
       name:'Note',
       component: Note
+    },
+    {
+      path:'/notes',
+      name:'BrowseNotes',
+      component: BrowseNotes
     }
   ]
 });

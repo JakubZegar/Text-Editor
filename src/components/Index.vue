@@ -1,6 +1,6 @@
 <template>
     <mdb-view>
-      <mdb-mask class="gradient d-flex justify-content-center align-items-center">
+      <mdb-mask class="gradient d-flex justify-content-center align-items-center" >
         <navbar/>
         <router-view/>
       </mdb-mask>
