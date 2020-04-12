@@ -4,7 +4,6 @@
 
 <script>
   import index from './components/Index'
-  
 
   export default {
     name: 'app',
