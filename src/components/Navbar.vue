@@ -51,7 +51,7 @@
     }
 
     .nav-buttons:hover{
-        color: rgb(0, 146, 214);
+        color: rgb(14, 85, 117);
     }
 
     

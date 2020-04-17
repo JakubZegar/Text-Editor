@@ -1,15 +1,11 @@
 <template>
-
-        <div class="column col-12" style="padding-top:60px;">
+        <div class="column col-10" style="padding-top:60px;">
             <div class="card mt-12 text-dark sticky">
                 <div class="card-header">
                     <h2 class="card-title h5">{{ editingMode ? 'Edit' : 'Add' }} note</h2>
                 </div>
                 <form class="card-body" action="" method="post" @submit.prevent="saveNote">
-                    <div class="toast toast-success" v-show="showSucces">
-                        <button type="button" class="btn btn-clear float-right" @click="clearMessage"></button>
-                        Note has been saved
-                    </div>
+
 
                     <!-- Title  -->
                     <div class="form-group" :class="{ 'has-error': errors.some(e => e.type === 'title')}">
