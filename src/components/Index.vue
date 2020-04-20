@@ -24,7 +24,7 @@
 <style scoped>
 
   .view {
-    background-image: url('https://mdbootstrap.com/img/Photos/Others/architecture.jpg');
+    background-image: url('https://images.hdqwalls.com/wallpapers/geometry-blue-abstract-4k-3y.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
