@@ -22,14 +22,9 @@
             return {
                 navItems: [
                     {
-                        name:'Home page',
-                        iconClass: 'fas fa-home',
-                        href: '/',
-                    },
-                    {
                         name:'Create a new note',
                         iconClass: 'far fa-sticky-note',
-                        href: '/note',
+                        href: '/',
                     },
                     {
                         name:'Browse notes',

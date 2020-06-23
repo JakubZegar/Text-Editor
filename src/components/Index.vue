@@ -1,7 +1,7 @@
 <template>
     <mdb-view>
       <mdb-mask class="gradient d-flex justify-content-center align-items-center" >
-        <navbar/>
+        
         <router-view/>
       </mdb-mask>
     </mdb-view>
@@ -9,14 +9,13 @@
 
 <script>
   import {  mdbView, mdbMask } from 'mdbvue';
-  import navbar from './Navbar';
+  
 
   export default {
     name: 'app',
     components: {
       mdbView,
       mdbMask,
-      navbar,
     }
   }
 </script>
